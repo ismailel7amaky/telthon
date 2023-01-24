@@ -1,7 +1,7 @@
-FROM Ismailel7amaky/sbb_b:slim-buster
+FROM sbb-b/sbb_b:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/Ismailel7amaky/sbb_b /root/sbb_b
+RUN git clone https://github.com/xlucifer711/sbb_b.git /root/sbb_b
 #working directory 
 WORKDIR /root/sbb_b
 
